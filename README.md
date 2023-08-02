@@ -4,6 +4,16 @@
 API para listar, adicionar e
 atualizar as cidades, médicos e pacientes cadastrados no banco de dados.
 
+## Instalação
+##### run **composer install**
+##### run **php artisan db:seed --class=UserSeeder**
+##### run **php artisan db:seed --class=CidadeSeeder**
+##### run **php artisan db:seed --class=MedicoSeeder**
+
+## Usuário de autenticação
+##### email: **christian.ramires@example.com**
+##### senha: **password**
+
 ## Documentação da API
 
 #### Login
